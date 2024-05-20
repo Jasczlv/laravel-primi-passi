@@ -11,6 +11,20 @@
     <h1>
         Hello World!
     </h1>
+    <ul>
+        <li>
+            <a href="{{url('/about')}}">About us</a>
+        </li>
+
+        <li>
+            <a href="{{url('/contact')}}">Contact us</a>
+        </li>
+
+        <li>
+            <a href="{{url('/shop')}}">Shop</a>
+        </li>
+
+    </ul>
 </body>
 
 </html>
